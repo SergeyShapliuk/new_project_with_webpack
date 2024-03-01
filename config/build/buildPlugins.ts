@@ -8,6 +8,7 @@ import path from "path";
 import CopyPlugin from "copy-webpack-plugin";
 import {BundleAnalyzerPlugin} from "webpack-bundle-analyzer";
 
+
 export function buildPlugins({mode, paths, analyzer, platform}: BuildOptions): Configuration["plugins"] {
     const isDev = mode === "development";
     const isProd = mode === "production";
