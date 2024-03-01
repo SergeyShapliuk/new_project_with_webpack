@@ -23,9 +23,9 @@
     // import React from 'react';
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+//    "paths": {
+//      "@/*": ["./src/*"]
+//    }
   },
   "ts-node": {
     "compilerOptions": {
